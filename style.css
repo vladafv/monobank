@@ -30,8 +30,8 @@ body {
 
 
 .left-side {
-    width: 788px;
-    height: 700px;
+    width: 790px;
+    height: 988px;
     border-radius: 50px 0px 0px 50px;
     background: #F3F4F6;
     display: flex;
@@ -120,13 +120,15 @@ text-align: center;
 
 
 .right-side {
-    width: 788px;
-    height: 700px;
+    width: 790px;
+    height: 988px;
     border-radius: 0px 50px 50px 0px;
     background: #FFF;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 24px; 
 }
 
 .sum{
@@ -141,6 +143,7 @@ text-align: center;
     background: #FFF;
     width: 570px;
     height: 320px;
+    margin-bottom: 16px;
 }
 
 
@@ -189,7 +192,88 @@ text-align: center;
 }
 
 .small_with{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid transparent; 
+    border-radius: 15px;
+    border: 3px solid #ACACAC;
+    background: #FFF;
+    width: 490px;
+    height: 80px;
+}
+.small_with_text {
+    width: 283px;
+    height: 27px;
+    color: #878787;
 
+}
+
+.pay_card{
+    display: flex;
+    flex-direction: row;
+}
+
+.small_with_black{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid transparent; 
+    border-radius: 15px;
+    border: 3px solid black;
+    background: #000000;
+    width: 490px;
+    height: 80px;
+}
+.small_with_black_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* width: 283px; */
+    height: 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 16px;
+    gap: 10px;
+}
+.small_with_light_text{
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+    width: 75px;
+    height: 37px;
+    background: white;
+}
+
+.img_small{
+    height: 80px;   
+}
+
+.small_with_line{
+    width: 495px;
+    height: 0;
+    border: 1px solid #ACACAC;
+}
+
+.small_with_card{
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #e9625f;
+}
+.img_small_card {
+    height: 27px; 
+}
+.card_mono {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #e9625f;
 }
 
 .left-bottom {
